@@ -7,7 +7,6 @@
 ```bash
 cd frontend
 npm i
-npm run dev
 ```
 
 ### Back end
