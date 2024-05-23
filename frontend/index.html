@@ -4,9 +4,29 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/style.css" />
-        <title>Recipes</title>
+        <title>Food Recipes</title>
     </head>
     <body>
+        <main>
+            <section>
+                <h1>Food Recipes</h1>
+                <div class="container">
+                    <form>
+                        <label for="title">Title</label>
+                        <input type="text" name="title" id="title">
+                        <label for="ingredients">Ingredients</label>
+                        <input type="text" name="ingredients" id="ingredients">
+                        <label for="instructions">Instructions</label>
+                        <input type="text" name="instructions" id="instructions">
+                        <label for="image">Image url</label>
+                        <input type="text" name="image" id="image">
+                        <p class="error"></p>
+                        <button type="submit" id="btn">Add recipe</button>
+                    </form>
+                    <div class="recipes"></div>
+                </div>
+            </section>
+        </main>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
