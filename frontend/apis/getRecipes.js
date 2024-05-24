@@ -1,6 +1,6 @@
 const getRecipes = async() => {
     try {
-        const res = await fetch('http://localhost:5002');
+        const res = await fetch('http://127.0.0.1:5002');
 
         if(!res.ok){
             throw new Error(`Could not fetch because of status: ${res.status}`);

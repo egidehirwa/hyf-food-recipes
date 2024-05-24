@@ -1,4 +1,6 @@
 # Recipes
+Screenshot
+[Application screenshot](frontend/assets/food-recipies-screenshot.png)
 
 ## Set up
 
@@ -24,3 +26,8 @@ cd backend
 npm i
 npm run dev
 ```
+
+## What l learned
+- Connecting to a mongodb database
+- Using postman to view my database elements
+- CRUD operations with a backend

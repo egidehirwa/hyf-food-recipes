@@ -3,7 +3,6 @@ import dom from "../dom.js";
 import createRecipe from "../components/createRecipe.js";
 
 const loadHandler = async() => {
-    debugger;
     // Send a request to the server
     const recipies = await getRecipes();
     
