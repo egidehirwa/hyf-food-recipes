@@ -1,6 +1,6 @@
 # Recipes
 Screenshot
-[Application screenshot](frontend/assets/food-recipies-screenshot.png)
+[Application screenshot](./frontend/assets/food-recipies-screenshot.png)
 
 ## Set up
 
